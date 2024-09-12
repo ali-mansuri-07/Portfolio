@@ -1,0 +1,41 @@
+.admin-contact {
+    display: flex;
+  }
+  
+  .contact-list-container {
+    margin: 15px; /* Space for the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust for the sidebar width */
+    background-color: white; /* Ensure the background color remains white */
+  }
+  
+  h2.center-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center; /* Centering the heading */
+  }
+  
+  .contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contacts-table th, .contacts-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .contacts-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  

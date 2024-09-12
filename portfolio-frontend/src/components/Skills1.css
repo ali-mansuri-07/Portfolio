@@ -1,0 +1,39 @@
+/* Skills1.css */
+.Skills {
+    text-align: center;
+    /* padding: 2rem 0; */
+}
+
+.skill-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem; /* space between rows */
+}
+
+.icon-card {
+    width: 150px;  /* Increased width */
+    height: 150px; /* Increased height */
+    margin: 1rem;  /* Increased space between cards */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.icon-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

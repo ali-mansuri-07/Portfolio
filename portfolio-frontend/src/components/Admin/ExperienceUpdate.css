@@ -1,0 +1,146 @@
+.experience-update-wrapper {
+    display: flex;
+  }
+  
+  .experience-update {
+    flex-grow: 1;
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .experience-update h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-experience-btn {
+    margin-bottom: 20px;
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-experience-btn:hover {
+    background-color: #e00047;
+  }
+  
+  .add-experience-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+
+  #isCurrent {
+    /* margin-left: 10px; */
+  }
+  
+  .form-group label[for="isCurrent"] {
+    display: inline-block;
+  }
+  
+  .form-group input[type="checkbox"] {
+    display: inline-block;
+    width: 5%;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9004d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e00047;
+  }
+  
+  .experiences-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .experiences-table th,
+  .experiences-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .experiences-table th {
+    background-color: #f9004d;
+    color: white;
+  }
+  
+  .delete-column {
+    text-align: center;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  

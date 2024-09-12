@@ -1,0 +1,103 @@
+.about {
+    background: #191919;
+    padding: 2rem 0;
+  }
+  
+  img.about__img {
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px; /* Fixed height for profile image */
+    object-fit: cover; /* Ensure image covers the container without distortion */
+  }
+  
+  h1.about__heading {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  .about__meta {
+    margin-bottom: 2rem;
+  }
+  
+  .about__text {
+    font-size: 1rem;
+    color: #dcdcdc; /* Light color for text */
+    line-height: 1.6;
+  }
+  
+  .about__button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px 0;
+  }
+  
+  button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    background-color: #f9004d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+  }
+  
+  button.about.btn.pointer:hover {
+    background-color: #ffffff;
+    color: #f9004d;
+  }
+  
+  a.bottom__to__top {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #f9004d;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+    z-index: 1000;
+  }
+  
+  a.bottom__to__top.active {
+    display: flex;
+  }
+  
+  a.bottom__to__top:hover {
+    background-color: #d9004d;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    h1.about__heading {
+      font-size: 2rem;
+    }
+  
+    .about__text {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    button.about.btn.pointer {
+      width: 150px;
+      height: 50px;
+      font-size: 14px;
+    }
+  
+    img.about__img {
+      height: 200px; /* Adjust height for smaller screens */
+    }
+  }
+  

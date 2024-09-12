@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    background-color: rgb(25, 24, 24);
+    height: 4rem;
+}
+
+.left{
+   display: flex;
+   flex-direction: row;
+   width: 50%;
+}
+
+.left>a>img{
+    width: 2rem;
+    margin:1rem 0 1rem 4rem;
+    border-radius: 2.5rem;
+}
+.left>a>img:hover{
+ cursor: pointer;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        display: block;
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+    .left{
+        margin-left: -15px;
+    }
+    .right{
+        margin-left: 33px;
+    }
+    
+}

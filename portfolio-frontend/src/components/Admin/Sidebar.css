@@ -1,0 +1,32 @@
+.sidebar {
+    height: 100vh; /* Full viewport height */
+    width: 250px; /* Adjust the width as needed */
+    background-color: #f4f4f4; /* Background color for visibility */
+    padding: 20px; /* Some padding for inner content */
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+  }
+
+  #sd-bar{
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+  }
+  
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 5px;
+    /* width: 100%; */
+    text-align: left;
+  }
+  
+  .sidebar nav ul li:hover {
+    background-color: #555;
+    color: red;
+  }
+  

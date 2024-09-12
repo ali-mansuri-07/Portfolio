@@ -1,0 +1,53 @@
+/* ExperienceList.css */
+
+.experience-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .experience-list h1 {
+    text-align: center;
+    color: white; /* Dark color for header text */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .experience-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+  }
+  
+  .experience-item:last-child {
+    border-bottom: none; /* Remove border from the last item */
+  }
+  
+  .experience-item h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #F9004D; /* Accent color for company name */
+  }
+  
+  .designation {
+    font-style: italic;
+    color: #c5bdbd; /* Subtle color for designation */
+  }
+  
+  .date {
+    font-size: 0.9em;
+    color: #c5bdbd; /* Subtle color for dates */
+  }
+  
+  .description {
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  
